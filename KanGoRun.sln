@@ -1,7 +1,7 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-Project("{1F277275-ED1E-1A0B-4913-28503EF82696}") = "KanGoRun", "Assembly-CSharp.csproj", "{6CD32115-19A5-E70B-BB51-33B2D12ABA0B}"
+Project("{B40DD49F-C646-45F5-3C3C-474A53ADF887}") = "kangorun", "Assembly-CSharp.csproj", "{1FC932D3-AA1D-E7AE-89CE-C981F7907AFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +9,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6CD32115-19A5-E70B-BB51-33B2D12ABA0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6CD32115-19A5-E70B-BB51-33B2D12ABA0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6CD32115-19A5-E70B-BB51-33B2D12ABA0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6CD32115-19A5-E70B-BB51-33B2D12ABA0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FC932D3-AA1D-E7AE-89CE-C981F7907AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FC932D3-AA1D-E7AE-89CE-C981F7907AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FC932D3-AA1D-E7AE-89CE-C981F7907AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FC932D3-AA1D-E7AE-89CE-C981F7907AFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-									GlobalSection(MonoDevelopProperties) = preSolution
+										GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
