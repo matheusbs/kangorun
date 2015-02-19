@@ -47,6 +47,8 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\MainMenu\Script\MainMenu.cs" />
+     <Compile Include="Assets\MainMenu\Script\PlayeButton.cs" />
+     <Compile Include="Assets\MainMenu\Script\Sair.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\Item.cs" />
      <Compile Include="Assets\Scripts\Launcher.cs" />
