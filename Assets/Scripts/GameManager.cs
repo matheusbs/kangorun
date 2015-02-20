@@ -5,7 +5,6 @@ public class GameManager : MonoBehaviour
 {
     private bool _isRunning;
 
-
     void Start()
     {
         _isRunning = true;
@@ -26,6 +25,7 @@ public class GameManager : MonoBehaviour
                 Time.timeScale = 0f;
         }
     }
+
 
     void GameOver()
     {

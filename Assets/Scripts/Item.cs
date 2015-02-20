@@ -6,13 +6,11 @@ public class Item : MonoBehaviour
     public float speed;
     private bool _isPaused;
 
-    // Use this for initialization
     void Start()
     {
         _isPaused = false;
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
         if (_isPaused) return;

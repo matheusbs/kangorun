@@ -12,14 +12,15 @@ public class Launcher : MonoBehaviour
     void Start()
     {
         _isPaused = false;
-        Launch();
+
+		Launch ();
     }
 
     void Launch()
     {
         if (_isPaused) return;
 
-        if (Random.Range(0, 100) < 25)
+        if (Random.Range(0, 100) < 30)
         {
             GameObject stone = GameObject.Instantiate(stonePrefab) as GameObject;
             stone.transform.parent = transform;
@@ -33,7 +34,7 @@ public class Launcher : MonoBehaviour
             item.transform.position = _pos;
         }
 
-        Invoke("Launch", Random.Range(0.1f, 2.5f));
+        Invoke("Launch", Random.Range(1f, 2.5f));
     }
 
     void PauseGame()
