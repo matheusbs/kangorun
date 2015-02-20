@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{B40DD49F-C646-45F5-3C3C-474A53ADF887}") = "kangorun", "Assembly-CSharp.csproj", "{1FC932D3-AA1D-E7AE-89CE-C981F7907AFE}"
 EndProject
+Project("{B40DD49F-C646-45F5-3C3C-474A53ADF887}") = "kangorun", "Assembly-CSharp-Editor.csproj", "{75D37323-1AA5-AC27-9050-0A7A1C82742E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,11 +15,15 @@ Global
 		{1FC932D3-AA1D-E7AE-89CE-C981F7907AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FC932D3-AA1D-E7AE-89CE-C981F7907AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FC932D3-AA1D-E7AE-89CE-C981F7907AFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75D37323-1AA5-AC27-9050-0A7A1C82742E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75D37323-1AA5-AC27-9050-0A7A1C82742E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75D37323-1AA5-AC27-9050-0A7A1C82742E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75D37323-1AA5-AC27-9050-0A7A1C82742E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																													GlobalSection(MonoDevelopProperties) = preSolution
+																																																										GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
