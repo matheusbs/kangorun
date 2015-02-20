@@ -38,6 +38,7 @@ public class Player : MonoBehaviour
             _animator.SetTrigger("Die");
             _manager.SendMessage("GameOver");
             Invoke("DieDude", 2f);
+			Application.LoadLevel("MainMenu");
             return;
         }
         _animator.SetTrigger("Run");
@@ -48,6 +49,7 @@ public class Player : MonoBehaviour
     {
         Time.timeScale = 0f;
         Destroy(gameObject);
+
     }
 
     void OnTriggerEnter2D(Collider2D c)

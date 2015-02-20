@@ -46,13 +46,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\MainMenu\Script\MainMenu.cs" />
-     <Compile Include="Assets\MainMenu\Script\PlayeButton.cs" />
-     <Compile Include="Assets\MainMenu\Script\Sair.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\Item.cs" />
      <Compile Include="Assets\Scripts\Launcher.cs" />
+     <Compile Include="Assets\Scripts\MainMenu.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\PlayerButton.cs" />
+     <Compile Include="Assets\Scripts\Sair.cs" />
      <Compile Include="Assets\Scripts\Stone.cs" />
      <Compile Include="Assets\Scripts\TextureController.cs" />
  <Reference Include="UnityEngine.UI">

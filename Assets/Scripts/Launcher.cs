@@ -24,12 +24,12 @@ public class Launcher : MonoBehaviour
             GameObject stone = GameObject.Instantiate(stonePrefab) as GameObject;
             stone.transform.parent = transform;
         }
-        else
+        else if(Random.Range(0, 100) > 50)
         {
             GameObject item = GameObject.Instantiate(itemPrefab) as GameObject;
             item.transform.parent = transform;
             _pos = transform.position;
-            _pos.y = Random.Range(-3.5f, 1.4f);
+            _pos.y = Random.Range(-3.5f, 0.5f);
             item.transform.position = _pos;
         }
 
