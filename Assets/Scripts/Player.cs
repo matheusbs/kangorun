@@ -7,20 +7,14 @@ public class Player : MonoBehaviour
     private Animator _animator;
     private bool _isJumping;
     private GameObject _manager;
-	private int _tempo;
-	private int _score;
-	private float a;
-	private int z;
+	private int _score = 0;
+
 
     // Use this for initialization
     void Start()
     {
         _animator = GetComponent<Animator>();
         _isJumping = false;
-		_tempo = 30;
-		_score = 0;
-		a = 0;
-		z = 0;
         Time.timeScale = 1f;
         _manager = GameObject.FindGameObjectWithTag("GameController");
     }
@@ -55,24 +49,10 @@ public class Player : MonoBehaviour
 
 	
 	void OnGUI(){
-		a = Time.time;
-		z = (int) a;
-		z = Mathf.Abs(_tempo - z);
-		GUI.TextArea (new Rect (90, 45, 50, 30), "  "+ z);
-
-		if(z == 0){
-			_animator.SetTrigger("Die");
-			_manager.SendMessage("GameOver");
-			Invoke("DieDude", 2f);
-			Application.LoadLevel("MainMenu");
-			return;
-		}
-
 		GUI.TextArea (new Rect (155, 10, 50, 30), "  "+ _score);
 	}
 	
 	void PlayerScored(){
-		_tempo += 5;
 		_score += 10;
 	}
 
@@ -86,6 +66,7 @@ public class Player : MonoBehaviour
     {
         if (c.CompareTag("Item"))
         {
+			PlayerScored();
             Destroy(c.gameObject);
         }
     }
