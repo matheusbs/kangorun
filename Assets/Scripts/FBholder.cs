@@ -41,7 +41,17 @@ public class FBholder : MonoBehaviour {
 	{
 		FB.Login ("user_about_me", AuthCallBack);
 	}
-	
+
+	public void FBlogout()
+	{
+		FB.Logout ();
+		GetOut ();
+	}
+
+	void GetOut(){
+		FB.Init (SetInit, OnHideUnity);
+	}
+
 	void AuthCallBack(FBResult result)
 	{
 		if (FB.IsLoggedIn) {
